@@ -1,6 +1,8 @@
 # Perfume
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+Broken layout approach of a perfume product official website.
+
+Original design of this project can be found on [Behance](https://www.behance.net/gallery/96029785/Perfume-Company-Landing-Page)
 
 ## Development server
 
