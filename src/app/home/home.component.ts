@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   // Determine the current state of the hamburger menu
   isActive = false;
-  productImgs = ['/assets/img/product1.jpg', '/assets/img/product2.jpg', '/assets/img/product3.jpg'];
+  productImgs = ['../../assets/img/product1.jpg', '../../assets/img/product2.jpg', '../../assets/img/product3.jpg'];
   constructor() { }
 
   ngOnInit(): void {
