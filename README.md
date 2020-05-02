@@ -4,6 +4,8 @@ Broken layout approach of a perfume business official website.
 
 Original design of this project can be found on [Behance](https://www.behance.net/gallery/96029785/Perfume-Company-Landing-Page)
 
+All images used in this project were found in [Unsplash](https://unsplash.com/s/photos/perfume)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
