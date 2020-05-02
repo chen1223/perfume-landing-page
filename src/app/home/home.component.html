@@ -1,0 +1,64 @@
+<!-- Header section -->
+<header class="header wrapper"
+  [ngClass]="{
+    'opened': isActive
+  }">
+  <span class="brand">Perfume</span>
+  <div class="menu-wrapper">
+    <ul class="menu">
+      <li class="item"><a href="#" class="link">Home</a></li>
+      <li class="item">Product</li>
+      <li class="item">About</li>
+      <li class="item">My Cart</li>
+    </ul>
+  </div>
+  <button
+    class="hamburger hamburger--slider"
+    type="button"
+    (click)="toggleMenu()"
+    [ngClass]="{
+      'is-active': isActive
+    }">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+</header><!-- End of header -->
+<!-- Hero Section -->
+<section class="hero">
+  <div class="inner-hero wrapper">
+    <h1 class="title">Capturing the spirit of heroine</h1>
+    <div class="hero-bg"></div>
+  </div>
+  <div class="hero-decor">
+    <div class="decor"></div>
+    <button class="cta">Buy Now</button>
+    <div class="bubbles"></div>
+  </div>
+</section><!-- End of hero section -->
+<!-- New Release section -->
+<section class="new-release wrapper">
+  <h2 class="section-title">New Release</h2>
+  <div class="product-wrapper">
+    <ul class="product-list">
+      <li class="product" *ngFor="let product of productImgs;let i = index">
+        <div class="product-img" [ngStyle]="{
+          'background-image': 'url(' + product + ')'
+        }"></div>
+        <div class="product-body">
+          <span class="product-title">Lorem ipsum dolor sit</span>
+          <a href="" class="product-link">Learn More</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <a href="" class="all-product">All Products</a>
+</section><!-- End of new release -->
+<!-- About Section -->
+<section class="about">
+  <div class="about-inner wrapper">
+    <h2 class="section-title">About</h2>
+    <p class="detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem</p>
+  </div>
+  <div class="about-bg"></div>
+</section><!-- End of About section -->
