@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "push:gitpage": "ngh --dir=dist/perfume-landing-page",
+    "publish:git": "ng build --prod --base-href \"https://chen1223.github.io/perfume-landing-page/\" && npm run push:gitpage"
   },
   "private": true,
   "dependencies": {
