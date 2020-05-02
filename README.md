@@ -1,6 +1,6 @@
 # Perfume
 
-Broken layout approach of a perfume product official website.
+Broken layout approach of a perfume business official website.
 
 Original design of this project can be found on [Behance](https://www.behance.net/gallery/96029785/Perfume-Company-Landing-Page)
 
